@@ -31,6 +31,7 @@ class FullTimeEmployee extends Employee {
 
     calculateSalary(): number {
         return this.paymentPerHour * 8;
+
     }
 }
 
@@ -39,6 +40,8 @@ let contractor: Employee;
 let fullTimeEmployee: Employee;
 contractor = new Contractor('avhishek hero', 10, 5);
 fullTimeEmployee = new FullTimeEmployee('lalit is  full time employee', 8);
+
+
 
 console.log(contractor.calculateSalary());
 console.log(fullTimeEmployee.calculateSalary());
