@@ -1,0 +1,6 @@
+A class can reuse the properties and methods of another class. This is called inheritance in TypeScript
+
+
+The class which inherits properties and methods is called the child class.
+ And the class whose properties and methods are inherited is known as the parent class. 
+These names come from the nature that children inherit genes from parents.
