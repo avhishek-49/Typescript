@@ -1,0 +1,10 @@
+Abstraction means hiding lower-level details and exposing only the essential and relevant details to the users
+
+
+
+The concept behind abstraction is that we are hiding the complexity of the implementation from inherited classes and
+we allow them to implement the functionality themselves.
+
+
+In TypeScript, abstraction can be achieved by using the abstract keyword - which can be applied to both classes and methods
+ specified in classes.
