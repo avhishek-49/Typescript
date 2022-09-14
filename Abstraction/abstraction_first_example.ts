@@ -42,3 +42,4 @@ fullTimeEmployee = new FullTimeEmployee('Ramesh full time employee', 8);
 
 console.log(contractor.calculateSalary());
 console.log(fullTimeEmployee.calculateSalary());
+
