@@ -37,8 +37,8 @@ class FullTimeEmployee extends Employee {
 
 let contractor: Employee;
 let fullTimeEmployee: Employee;
-contractor = new Contractor('Ramesh contractor', 10, 5);
-fullTimeEmployee = new FullTimeEmployee('Ramesh full time employee', 8);
+contractor = new Contractor('avhishek hero', 10, 5);
+fullTimeEmployee = new FullTimeEmployee('lalit is  full time employee', 8);
 
 console.log(contractor.calculateSalary());
 console.log(fullTimeEmployee.calculateSalary());
