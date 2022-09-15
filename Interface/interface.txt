@@ -1,0 +1,30 @@
+INTERFACE
+ it is defined as the place at which independent and often unrelated systems meet and act on or communicate with each other
+ the man-machine interface. b : the means by which interaction or communication is achieved at an interface.
+
+ example of interface
+  virtual reality, ATMs, speedometer,the old iPod click wheel
+
+ why interface ?
+ It is used to achieve total abstraction. 
+ Since java does not support multiple inheritances in the case of class, 
+ by using an interface it can achieve multiple inheritances. It is also used to achieve loose coupling
+
+
+Note 
+Loose Coupling
+ Loose coupling is an approach to interconnecting the components in a system or network 
+ so that those components, also called elements, depend on each other to the least extent practicable. 
+ Coupling refers to the degree of direct knowledge that one element has of another
+
+In OOP
+ Interfaces allow you to specify what methods a class should implement
+ Interfaces make it easy to use a variety of different classes in the same way. When one or more classes use the same interface,
+ It is referred to as "polymorphism"
+
+In contex of TYPESCRIPT
+
+ In TypeScript, an interface is an abstract type that tells the compiler which property names a given object can have.
+ TypeScript creates implicit interfaces when you define an object with properties. 
+ It starts by looking at the object's property name and data type using TypeScript's type inference abilities.
+
